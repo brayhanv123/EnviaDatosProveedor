@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ingresar Datos del Proveedor</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulario de Ingreso de Proveedor</h2>
+        <form action="MostrarDatosProveedor" method="POST">
+            <label for="nombre_prov">Nombre del Proveedor:</label><br>
+            <input type="text" id="nombre_prov" name="nombre_prov" required><br><br>
+
+            <label for="direccion_prov">Dirección del Proveedor:</label><br>
+            <input type="text" id="direccion_prov" name="direccion_prov" required><br><br>
+
+            <label for="telefono_prov">Teléfono del Proveedor:</label><br>
+            <input type="text" id="telefono_prov" name="telefono_prov" required><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
